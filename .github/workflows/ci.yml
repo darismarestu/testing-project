@@ -36,7 +36,7 @@ jobs:
           node-version: 20
       - run: npm install
       - name: Run WebdriverIO tests
-        run: npx wdio wdio.conf.js
+        run: npx wdio run config/wdio.conf.mjs
 
   k6-tests:
     runs-on: ubuntu-latest

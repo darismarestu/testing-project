@@ -6,6 +6,7 @@ export const config = {
     runner: 'local',
     port: 4723,
     specs: [
+        '../scenario/**/*.feature'
     ],
     suites: {
         // npx wdio ./config/wdio.conf.mjs --suite xxxx
