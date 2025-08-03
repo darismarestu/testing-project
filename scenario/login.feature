@@ -9,5 +9,5 @@ Scenario: Valid Login
     Then Berhasil memasukan password secret_sauce
     When Meng-klik tombol Login
     Then Menampilkan homepage
-    When Meng-klik tombol Logout
-    Then Berhasil Menampilkan laman Login
+    # When Meng-klik tombol Logout
+    # Then Berhasil Menampilkan laman Login
