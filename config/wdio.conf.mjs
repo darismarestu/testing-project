@@ -27,7 +27,7 @@ export const config = {
         },
         "goog:chromeOptions": {
         args: [
-            // "--headless=new",
+            "--headless=new",
             "--disable-gpu",
             "--disable-extensions",
             "--no-sandbox",
