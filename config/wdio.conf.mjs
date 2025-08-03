@@ -12,21 +12,6 @@ export const config = {
         login: [
             "../scenario/login.feature"
         ],
-        activeVisits: [
-            "../scenario/active-visits.feature"
-        ],
-        changeLocation: [
-            "../scenario/change-location.feature"
-        ],
-        findPatientRecord: [
-            "../scenario/find-patient-record.feature"
-        ],
-        captureVitals: [
-            "../scenario/capture-vitals.feature"
-        ],
-        registerAPatient: [
-            "../scenario/register-a-patient.feature"
-        ]
     },
     maxInstances: 1,
     capabilities: [{

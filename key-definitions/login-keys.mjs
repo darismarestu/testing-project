@@ -1,16 +1,8 @@
 class LoginKeys {
-    loginForm = `//*[@id="login-form"]`
-    inputUsername = `//*[@id="username"]`;
+    loginContainer = `//*[@id="login_button_container"]`;
+    inputUserName = `//*[@id="user-name"]`;
     inputPassword = `//*[@id="password"]`;
-
-    inpatientWard = `//*[@id="Inpatient Ward"]`;
-    isolationWard = `//*[@id="Isolation Ward"]`;  
-    laboratory = `//*[@id="Laboratory"]`;  
-    outpatientClinic = `//*[@id="Outpatient Clinic"]`;  
-    pharmacy = `//*[@id="Pharmacy"]`;  
-    registrationDesk= `//*[@id="Registration Desk"]`; 
-
-    loginButton = `//*[@id="loginButton"]`;    
+    btnLogin = `//*[@id="login-button"]`; 
 }
 const loginKeys = new LoginKeys();
 export default loginKeys;

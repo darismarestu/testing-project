@@ -25,14 +25,6 @@ Then(/^Berhasil memasukan password (.*)$/, async (password) => {
 	await loginPage.verifyPasswordInputed(password);
 });
 
-When(/^Memilih Location for this session (.*)$/, async (location) => {
-	await loginPage.selectLocation(location);
-});
-
-Then(/^Berhasil Memilih Location for this session (.*)$/, async (location) => {
-	await loginPage.verifyLocationSelected(location);
-});
-
 When(/^Meng-klik tombol Login$/, async () => {
 	await loginPage.clickLoginButton();
 });
@@ -44,21 +36,4 @@ Then(/^Menampilkan homepage$/, async () => {
 When(/^Meng-klik tombol Logout$/, async () => {
 	await loginPage.clickLogoutButton();
 });
-
-When(/^Meng-klik select location$/, async () => {
-	await loginPage.clickLocationHome();
-});
-
-Then(/^Menampilkan section location$/, async () => {
-	await loginPage.verifySectionLocationHome();
-});
-
-When(/^Memilih location Pharmacy$/, async () => {
-	await loginPage.chooseLocationHome();
-});
-
-Then(/^Berhasil memilih location Pharmacy$/, async () => {
-	await loginPage.verifyLocationHomeChoosed();
-});
-
 
