@@ -17,6 +17,9 @@
   "scripts": {
     "wdio": "wdio run ./config/wdio.conf.mjs",
     "login": "wdio run ./config/wdio.conf.mjs --suite login",
-    "buyProduct": "wdio run ./config/wdio.conf.mjs --suite buyProduct"
+    "buyProduct": "wdio run ./config/wdio.conf.mjs --suite buyProduct",
+    "testk6": "k6 run ./k6/test.js",
+    "stagesk6": "k6 run ./k6/stages.js",
+    "scenariok6": "k6 run ./k6/scenarios.js"
   }
 }
