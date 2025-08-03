@@ -34,10 +34,12 @@ class LoginPage{
 
     async verifyHomePage(){
         await elementHelper.waitForExist(homeKey.homeContainer);
+        await elementHelper.pause(2);
     };
 
     async clickLogoutButton(){
         await elementHelper.click(homeKey.burgerMenu);
+        await elementHelper.pause(2);
         await elementHelper.click(homeKey.btnLogout);
     };
 

@@ -10,7 +10,7 @@ class CheckoutKeys {
     btnCancel = `//*[@id="cancel"]`;
     btnFinish = `//*[@id="finish"]`;
 
-    checkotCompleteContainer = `//*[@id="checkout_complete_container"]`;
+    checkoutCompleteContainer = `//*[@id="checkout_complete_container"]`;
     btnBackToHome = `//*[@id="back-to-products"]`;
 
 }

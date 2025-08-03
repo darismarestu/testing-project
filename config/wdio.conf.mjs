@@ -12,6 +12,9 @@ export const config = {
         login: [
             "../scenario/login.feature"
         ],
+        buyProduct: [
+            "../scenario/buyProduct.feature"
+        ],
     },
     maxInstances: 1,
     capabilities: [{
