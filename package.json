@@ -1,4 +1,6 @@
 {
+  "name": "my-new-project",
+  "type": "module",
   "dependencies": {
     "@wdio/allure-reporter": "^9.14.0",
     "@wdio/cucumber-framework": "^8.40.2",
